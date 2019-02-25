@@ -14,10 +14,10 @@ def main():
 
     database.all_data()
 
-    list1 = database.search_content("电子书",0, 10)
-
-    print(list1)
-    print(len(list1))
+    # list1 = database.search_content("电子书",0, 10)
+    #
+    # print(list1)
+    # print(len(list1))
 
 if __name__ == "__main__":
     main()
